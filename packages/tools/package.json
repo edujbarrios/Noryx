@@ -1,0 +1,33 @@
+{
+  "name": "@noryx/tools",
+  "version": "0.1.0",
+  "description": "Provider-independent tool abstractions for Noryx.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edujbarrios/Noryx.git",
+    "directory": "packages/tools"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@noryx/core": "workspace:*",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

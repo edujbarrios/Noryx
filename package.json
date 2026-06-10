@@ -1,0 +1,34 @@
+{
+  "name": "noryx",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build AI-powered applications with composable cognitive primitives.",
+  "author": "Eduardo J. Barrios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edujbarrios/Noryx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edujbarrios/Noryx/issues"
+  },
+  "homepage": "https://github.com/edujbarrios/Noryx#readme",
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "build": "corepack pnpm -r build",
+    "dev": "corepack pnpm --filter @noryx/playground dev",
+    "lint": "corepack pnpm -r lint",
+    "typecheck": "corepack pnpm -r typecheck",
+    "clean": "corepack pnpm -r clean",
+    "turbo:build": "turbo build",
+    "turbo:dev": "turbo dev",
+    "turbo:typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.3.5",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.3"
+  }
+}

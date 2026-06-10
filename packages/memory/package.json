@@ -1,0 +1,29 @@
+{
+  "name": "@noryx/memory",
+  "version": "0.1.0",
+  "description": "Memory abstractions for Noryx.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edujbarrios/Noryx.git",
+    "directory": "packages/memory"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

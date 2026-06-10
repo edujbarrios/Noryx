@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "baseUrl": ".",
+    "paths": {
+      "@noryx/core": ["packages/core/src/index.ts"],
+      "@noryx/runtime": ["packages/runtime/src/index.ts"],
+      "@noryx/react": ["packages/react/src/index.tsx"],
+      "@noryx/openai-compatible": ["packages/providers/openai-compatible/src/index.ts"],
+      "@noryx/workflows": ["packages/workflows/src/index.ts"],
+      "@noryx/memory": ["packages/memory/src/index.ts"],
+      "@noryx/tools": ["packages/tools/src/index.ts"],
+      "@noryx/primitive-chat": ["packages/primitives/chat/src/index.ts"],
+      "@noryx/primitive-summarize": ["packages/primitives/summarize/src/index.ts"],
+      "@noryx/primitive-extract": ["packages/primitives/extract/src/index.ts"],
+      "@noryx/primitive-classify": ["packages/primitives/classify/src/index.ts"]
+    },
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx"
+  }
+}
