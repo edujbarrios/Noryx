@@ -1,0 +1,11 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Noryx logo</title>
+  <desc id="desc">A geometric Noryx mark made from connected cognitive primitive nodes.</desc>
+  <rect width="160" height="160" rx="32" fill="#101418"/>
+  <path d="M42 112V48H56L104 88V48H118V112H104L56 72V112H42Z" fill="#F7F4EE"/>
+  <circle cx="42" cy="48" r="8" fill="#B35F4B"/>
+  <circle cx="118" cy="48" r="8" fill="#6F7F4F"/>
+  <circle cx="42" cy="112" r="8" fill="#6F7F4F"/>
+  <circle cx="118" cy="112" r="8" fill="#B35F4B"/>
+  <path d="M42 48L118 112M118 48L42 112" stroke="#F7F4EE" stroke-width="4" stroke-linecap="round" stroke-opacity=".32"/>
+</svg>

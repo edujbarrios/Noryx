@@ -1,0 +1,28 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Noryx banner</title>
+  <desc id="desc">Noryx banner showing composable cognitive primitives flowing through a provider agnostic runtime.</desc>
+  <rect width="1280" height="420" fill="#F7F4EE"/>
+  <rect x="48" y="48" width="1184" height="324" rx="28" fill="#101418"/>
+  <path d="M95 302C188 208 257 159 338 155C445 150 484 226 588 220C707 213 725 105 858 106C956 107 1035 167 1184 85" stroke="#6F7F4F" stroke-width="20" stroke-linecap="round" opacity=".72"/>
+  <path d="M96 334C190 241 276 225 358 232C457 240 508 305 616 284C722 263 756 180 878 179C978 178 1052 231 1184 168" stroke="#B35F4B" stroke-width="12" stroke-linecap="round" opacity=".82"/>
+  <rect x="90" y="92" width="118" height="118" rx="24" fill="#F7F4EE"/>
+  <path d="M119 176V126H131L168 157V126H180V176H168L131 145V176H119Z" fill="#101418"/>
+  <circle cx="119" cy="126" r="6" fill="#B35F4B"/>
+  <circle cx="180" cy="126" r="6" fill="#6F7F4F"/>
+  <circle cx="119" cy="176" r="6" fill="#6F7F4F"/>
+  <circle cx="180" cy="176" r="6" fill="#B35F4B"/>
+  <text x="236" y="140" fill="#F7F4EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="800">Noryx</text>
+  <text x="238" y="188" fill="#D8D1C4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">Build AI-powered applications with composable cognitive primitives.</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">
+    <rect x="238" y="238" width="134" height="50" rx="10" fill="#F7F4EE"/>
+    <text x="263" y="270" fill="#101418">AIExtract</text>
+    <rect x="392" y="238" width="158" height="50" rx="10" fill="#F7F4EE"/>
+    <text x="419" y="270" fill="#101418">AISummarize</text>
+    <rect x="570" y="238" width="138" height="50" rx="10" fill="#F7F4EE"/>
+    <text x="595" y="270" fill="#101418">AIClassify</text>
+    <rect x="728" y="238" width="146" height="50" rx="10" fill="#F7F4EE"/>
+    <text x="755" y="270" fill="#101418">AIWorkflow</text>
+  </g>
+  <text x="940" y="318" fill="#F7F4EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">TypeScript-first</text>
+  <text x="940" y="344" fill="#D8D1C4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Provider-agnostic runtime</text>
+</svg>
