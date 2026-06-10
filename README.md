@@ -5,6 +5,10 @@
 <h1 align="center">Noryx</h1>
 
 <p align="center">
+  <strong><em>React made UI composable. Noryx makes cognition composable.</em></strong>
+</p>
+
+<p align="center">
   <strong>Build AI-powered applications with composable cognitive primitives.</strong>
 </p>
 
@@ -20,8 +24,6 @@
 </p>
 
 Noryx is a TypeScript-first framework for building AI applications through reusable, composable, provider-agnostic cognitive primitives. It is not another LLM wrapper or chatbot kit. Noryx is a foundation for cognitive applications.
-
-React made UI composable. Noryx makes cognition composable.
 
 Target composition model:
 
@@ -106,6 +108,10 @@ The same adapter shape can target OpenAI, OpenRouter, DeepSeek, Groq, Together, 
 
 ## Create a Primitive
 
+Primitives can use prompts internally, but the application code does not have to pass raw prompts around. A primitive packages the prompt, input schema, output schema, provider call, and validation rules into a reusable typed unit.
+
+In this example, the `system` message is the AI instruction, while Zod defines the exact shape Noryx expects back from the provider.
+
 ```ts
 import { createPrimitive } from "@noryx/core";
 import { z } from "zod";
@@ -127,7 +133,17 @@ export const SentimentPrimitive = createPrimitive({
 
     return ctx.provider.extract({
       schema: SentimentSchema,
-      messages: [{ role: "user", content: input.text }]
+      messages: [
+        {
+          role: "system",
+          content:
+            "Classify the sentiment of the user text. Return only JSON matching the schema."
+        },
+        {
+          role: "user",
+          content: input.text
+        }
+      ]
     });
   }
 });
