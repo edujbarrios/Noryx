@@ -1,0 +1,46 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Noryx playground screenshot</title>
+  <desc id="desc">Preview of the Noryx playground with provider configuration, primitive controls, and output panel.</desc>
+  <rect width="1280" height="760" fill="#101418"/>
+  <rect x="34" y="34" width="1212" height="692" rx="24" fill="#F7F4EE"/>
+  <rect x="34" y="34" width="1212" height="54" rx="24" fill="#D8D1C4"/>
+  <circle cx="70" cy="61" r="8" fill="#B35F4B"/>
+  <circle cx="96" cy="61" r="8" fill="#6F7F4F"/>
+  <circle cx="122" cy="61" r="8" fill="#101418" opacity=".62"/>
+  <rect x="172" y="48" width="338" height="26" rx="13" fill="#F7F4EE"/>
+  <text x="194" y="66" fill="#101418" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">http://localhost:3000</text>
+  <text x="86" y="154" fill="#B35F4B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="2">SOFTWARE BUILT BY EDUARDO J. BARRIOS</text>
+  <text x="86" y="230" fill="#101418" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="78" font-weight="800">Noryx</text>
+  <text x="90" y="276" fill="#101418" opacity=".7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="500">Build AI-powered applications with composable cognitive primitives.</text>
+  <rect x="86" y="486" width="454" height="124" rx="8" fill="#FFFFFF" opacity=".58"/>
+  <rect x="86" y="486" width="454" height="124" rx="8" stroke="#D8D1C4" stroke-width="2"/>
+  <text x="114" y="530" fill="#101418" opacity=".7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Provider</text>
+  <text x="114" y="568" fill="#101418" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Configure NEXT_PUBLIC_AI_BASE_URL, NEXT_PUBLIC_AI_API_KEY,</text>
+  <text x="114" y="596" fill="#101418" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">and NEXT_PUBLIC_AI_MODEL.</text>
+  <rect x="610" y="126" width="584" height="190" rx="8" fill="#FFFFFF"/>
+  <rect x="610" y="126" width="584" height="190" rx="8" stroke="#D8D1C4" stroke-width="2"/>
+  <text x="638" y="170" fill="#101418" font-family="JetBrains Mono, Consolas, monospace" font-size="18">Invoice INV-2048 from Northstar Labs totals</text>
+  <text x="638" y="204" fill="#101418" font-family="JetBrains Mono, Consolas, monospace" font-size="18">1299.95 USD for design systems consulting.</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">
+    <rect x="610" y="342" width="132" height="58" rx="8" fill="#101418"/>
+    <text x="638" y="378" fill="#FFFFFF">Summarize</text>
+    <rect x="764" y="342" width="132" height="58" rx="8" fill="#6F7F4F"/>
+    <text x="802" y="378" fill="#FFFFFF">Extract</text>
+    <rect x="918" y="342" width="132" height="58" rx="8" fill="#B35F4B"/>
+    <text x="950" y="378" fill="#FFFFFF">Classify</text>
+    <rect x="1072" y="342" width="122" height="58" rx="8" fill="#F7F4EE" stroke="#101418" stroke-width="2"/>
+    <text x="1094" y="378" fill="#101418">Workflow</text>
+  </g>
+  <rect x="610" y="426" width="584" height="206" rx="8" fill="#FFFFFF"/>
+  <rect x="610" y="426" width="584" height="206" rx="8" stroke="#D8D1C4" stroke-width="2"/>
+  <text x="638" y="470" fill="#101418" font-family="JetBrains Mono, Consolas, monospace" font-size="16">{</text>
+  <text x="664" y="500" fill="#B35F4B" font-family="JetBrains Mono, Consolas, monospace" font-size="16">"invoiceNumber"</text>
+  <text x="820" y="500" fill="#101418" font-family="JetBrains Mono, Consolas, monospace" font-size="16">: "INV-2048",</text>
+  <text x="664" y="530" fill="#B35F4B" font-family="JetBrains Mono, Consolas, monospace" font-size="16">"vendor"</text>
+  <text x="756" y="530" fill="#101418" font-family="JetBrains Mono, Consolas, monospace" font-size="16">: "Northstar Labs",</text>
+  <text x="664" y="560" fill="#B35F4B" font-family="JetBrains Mono, Consolas, monospace" font-size="16">"total"</text>
+  <text x="740" y="560" fill="#101418" font-family="JetBrains Mono, Consolas, monospace" font-size="16">: 1299.95</text>
+  <text x="638" y="590" fill="#101418" font-family="JetBrains Mono, Consolas, monospace" font-size="16">}</text>
+  <path d="M90 664H1190" stroke="#D8D1C4" stroke-width="2"/>
+  <text x="90" y="696" fill="#101418" opacity=".62" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Composable cognitive primitives running through a provider-agnostic TypeScript runtime.</text>
+</svg>

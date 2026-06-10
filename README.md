@@ -84,9 +84,13 @@ corepack pnpm dev
 
 Open the playground:
 
-```txt
-http://localhost:3000
-```
+<p align="center">
+  <a href="http://localhost:3000">
+    <img src="docs/assets/playground-preview.svg" alt="Noryx playground screenshot linked to http://localhost:3000" width="100%" />
+  </a>
+</p>
+
+Local URL: <http://localhost:3000>
 
 You can also run the playground directly:
 
